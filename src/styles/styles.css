@@ -1,0 +1,344 @@
+/* Import Poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --font-family: 'Poppins', sans-serif;
+  --background-color: #f8f9fa;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Navbar code start */
+.custom-navbar .navbar-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.brand-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+  margin-right: auto;
+}
+
+.Navbarlogin-button {
+  width: 10%;
+  padding: 10px;
+  background-color: #ff7700;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 0.9em;
+
+}
+
+.Navbarlogin-button:hover {
+  background-color: #902222;
+  color: #0056b3;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.custom-navbar {
+  background-color: #c16239;
+  height: 90%;
+
+
+}
+
+.custom-navbar .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.custom-navbar .navbar-nav .nav-link:hover {
+  color: #f8f9fa;
+}
+
+.custom-navbar .navbar-toggler {
+  border-color: #fff;
+}
+
+.navbar-brand img {
+  height: auto;
+  width: 80%;
+}
+
+.custom-navbar .nav-item {
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+.custom-navbar .nav-link {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+@media (max-width: 767px) {
+  .custom-navbar .nav-link {
+    font-size: 1rem;
+  }
+}
+
+
+
+/* Footer */
+
+footer.bg-gradient {
+  background-color: #717171;
+
+}
+
+footer h5 {
+  font-weight: bold;
+  color: #fff;
+}
+
+footer .nav-link {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+footer .nav-link:hover {
+  color: #f8f9fa;
+}
+
+footer .form-control {
+  margin-bottom: 15px;
+}
+
+footer .btn-warning {
+  background-color: #f39c12;
+  border: none;
+}
+
+footer .btn-warning:hover {
+  background-color: #e67e22;
+}
+
+footer p {
+  font-size: 14px;
+  color: #ccc;
+}
+
+footer .social-media-icons a {
+  color: #fff;
+  margin: 0 10px;
+}
+
+footer .social-media-icons a:hover {
+  color: #f8f9fa;
+}
+
+footer .text-center {
+  color: #bbb;
+}
+
+.newsletter-container {
+  align-content: center;
+  width: 70%;
+}
+
+/* Login */
+
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #dfdbdb;
+  padding: 100px;
+  height: 100vh;
+}
+
+.login-box {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 20px 60px;
+  border-radius: 8px;
+  width: 30%;
+  color: #11c80b;
+  text-align: center;
+}
+
+.login-box h2 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  color: #ff7700;
+}
+
+.input-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.input-group label {
+  display: flex;
+  align-items: center;
+  font-size: 0.9em;
+  color: #ff7700;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+.input-group input:focus {
+  outline: none;
+  border: 2px solid #ff7700;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.options label {
+  font-size: 0.8em;
+}
+
+.options .forgot-password {
+  color: #ff7700;
+  font-size: 0.8em;
+  text-decoration: none;
+}
+
+.options .forgot-password:hover {
+  text-decoration: underline;
+}
+
+.login-button {
+  width: 40%;
+  padding: 10px;
+  background-color: #ff7700;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-button:hover {
+  background-color: #e06500;
+}
+
+@media (max-width: 768px) {
+  .login-box {
+    padding: 15px;
+  }
+
+  .login-box h2 {
+    font-size: 1.5em;
+  }
+
+  .login-button {
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 480px) {
+  .login-box h2 {
+    font-size: 1.3em;
+  }
+
+  .options label,
+  .options .forgot-password {
+    font-size: 0.7em;
+  }
+}
+
+/* home */
+
+.homepage-container {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f8f9fa;
+  margin: 100%;
+  padding: 10px;
+  display: flex;
+}
+
+.carousel .carousel-item img {
+  height: 600px;
+  object-fit: cover;
+}
+
+.carousel-caption h3 {
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.carousel-caption p {
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+.card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.card-text {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.btn-primary {
+  background-color: #e06500;
+  border-color: #e06500;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #c05500;
+  border-color: #c05500;
+}
+
+footer {
+  background-color: #343a40;
+  color: #fff;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
